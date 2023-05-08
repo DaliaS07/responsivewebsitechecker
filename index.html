@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsiive Admin Dashboard </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+  <div class="sidebar">
+
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">Website Checker</span>
+    </div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Internet Broken</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">External Broken</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">HTML Errors</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class='bx bx-heart' ></i>
+            <span class="links_name">CSS Errors</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Spelling Errors</span>
+          </a>
+        </li> 
+
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Alt Text Issues</span>
+          </a>
+        </li> 
+
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">META Keywords Issue</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">META Description Issue</span>
+          </a>
+        </li> 
+
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Duplicate META Keywords Issue</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Duplicate META Description Issue</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Page Title Issue</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Duplicate Page Title Issue</span>
+          </a>
+        </li>
+
+
+        
+
+        
+        
+        
+
+
+
+      </ul>
+  </div>
+
+  <section class="home-section">
+
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      
+      
+    </nav>
+
+    <div class="home-content">
+
+      <div class="overview-boxes">
+
+        <div class="box">
+          <div class="right-side">
+            <div class="number">###</div>
+            <div class="box-topic">INTERNAL BROKEN</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="right-side">
+            <div class="number">###</div>
+              <div class="box-topic">EXTERNAL BROKEN</div>
+          </div>
+        </div>
+
+
+        <div class="box">
+            <div class="right-side">
+              <div class="number">###</div>
+              <div class="box-topic">HTML ERRORS</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="right-side">
+              <div class="number">###</div>
+              <div class="box-topic">CSS ERRORS</div>
+            </div>
+
+          </div>
+          
+          <div class="box">
+            <div class="right-side">
+              <div class="number">###</div>
+              <div class="box-topic">META KEYWORDS</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="right-side">
+              <div class="number">###</div>
+              <div class="box-topic">META DESCRIPTION ISSUE</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="right-side">
+              <div class="number">###</div>
+              <div class="box-topic"> DUPLICATE META KEYWORDS</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="right-side">
+              <div class="number">###</div>
+              <div class="box-topic">DUPLICTAE META DESCRIPTION ISSUE</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="right-side">
+              <div class="number">###</div>
+              <div class="box-topic">PAGE TITLE ISSUE</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="right-side">
+              <div class="number">###</div>
+              <div class="box-topic">DUPLICATE PAGE TITLE</div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+        
+
+
+
+        
+
+      
+          
+         
+   
+         
+        </div>
+
+    </div>
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
